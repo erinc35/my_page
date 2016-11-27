@@ -35,7 +35,6 @@ position: fixed;
   padding: 20px 20px;
 }
 
-
 .sub-nav{
   font-family: Impact, Charcoal, sans-serif;
 }
@@ -237,6 +236,46 @@ position: fixed;
     background-size: cover;
   }
 
+  .snow {
+    display: flex;
+    overflow: auto;
+    background-image: url("snow1.jpg");
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .opac{
+    /*background: rgb(54, 25, 25);*/
+
+    background: rgba(255, 255, 255, .3);
+  }
+
+  .greeting{
+    font-family: didot;
+    color: black;
+    border-radius: 8px;
+     margin: auto;
+    /*width: 50%;*/
+    padding: 10px;
+  }
+
+#navbar {
+  border: 0;
+  background-color: #202020;
+  border-radius: 0px;
+  margin-bottom: 0;
+    height: 50px;
+}
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+}
 
   .who{
     backface-visibility: 0.5;
@@ -260,7 +299,7 @@ position: fixed;
 
  .contact {
     min-height: 500px;
-
+    padding-top: 80px;
   }
   #hire {
 
