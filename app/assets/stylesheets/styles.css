@@ -62,6 +62,7 @@ position: fixed;
   }
 
   .obj{
+    line-height: 1.7em;
     font-size: 20px;
     margin: 0 9%;
     color: black;
