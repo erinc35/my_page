@@ -264,6 +264,20 @@ position: fixed;
     padding: 10px;
   }
 
+#nav_bar {
+  border: 0;
+  background-color: #202020;
+  border-radius: 0px;
+  margin-bottom: 0;
+    height: 50px;
+}
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+}
+
   .who{
     backface-visibility: 0.5;
     min-height: 100%;
