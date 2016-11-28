@@ -60,8 +60,24 @@ position: fixed;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     text-shadow: 1px 1px 7px rgba(0, 82, 63, 1);
   }
+/*
+#fade h1 {
+    opacity: 0;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}*/
+#fade h1 {
+    opacity: 0;
+}
 
   .obj{
+    line-height: 1.7em;
     font-size: 20px;
     margin: 0 9%;
     color: black;
@@ -84,6 +100,22 @@ position: fixed;
     background-color: black;
     padding-top: 2%;
   }
+
+  .dudit-project{
+    font-family: dudit;
+    font-size: 40px;
+  }
+
+.img-responsiv,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  padding-bottom: 2%;
+  display: block;
+  max-width: 100%;
+  height: 300px;
+}
   /*----------------------------*/
   #login-dp{
     min-width: 250px;
@@ -308,12 +340,12 @@ position: fixed;
 body section {
   background: white;
   margin: 60px auto 120px;
-  text-align: center;
   padding: 50px 0 110px;
   width: 80%;
   max-width: 1100px;
 }
 .section-h1 {
+  text-align: center;
   margin-bottom: 40px;
   font-size: 3em;
   text-transform: uppercase;
