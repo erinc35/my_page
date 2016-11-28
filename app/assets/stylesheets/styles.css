@@ -111,10 +111,12 @@ position: fixed;
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  padding-bottom: 2%;
+  border-radius: 8px;
+  width: 360px;
+  padding-bottom: 6%;
   display: block;
   max-width: 100%;
-  height: 300px;
+  height: 250px;
 }
   /*----------------------------*/
   #login-dp{
