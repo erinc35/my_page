@@ -493,6 +493,8 @@ form .field:hover label {
   color: white;
 }
 form input[type="submit"] {
+  display: block;
+  margin: auto;
   border-radius: 8px;
   background: #FD9638;
   color: white;
