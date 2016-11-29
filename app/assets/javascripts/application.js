@@ -15,5 +15,3 @@
 //= require turbolinks
 //= require_tree .
 
-window.jQuery = require('jquery');
-require('materialize-css');
