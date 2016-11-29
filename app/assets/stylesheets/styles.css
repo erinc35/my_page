@@ -311,7 +311,7 @@ position: fixed;
     display: flex;
     overflow: auto;
     background-image: url("snow1.jpg");
-    min-height: 1250px;
+    min-height: 850px;
 
     background-attachment: fixed;
     background-position: center;
