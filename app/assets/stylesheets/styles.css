@@ -53,31 +53,50 @@ position: fixed;
   }
 
   .name{
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
   }
 
 .intro-p{
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .resume-download {
+  font-weight: bolder;
+  font-family: serif;
   display: block;
-  margin: auto;
-   background-color: #4CAF50;
+  margin: 2% auto;
+   background-color: #313A3D;
     border: none;
     color: white;
-    padding: 15px 32px;
+   /* padding: 15px 32px;*/
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    font-size: 24px;
+    border-radius: 8px;
+    transform-style: preserve-3d;
 }
 
+@keyframes jump {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
 
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.resume-download:hover{
+  animation: jump 1s;
+}
   .nav-h1{
     font-size: 40px;
     margin: 1.5% auto;
@@ -293,7 +312,7 @@ position: fixed;
     background-image: url("brick2.jpg");
     min-height: 500px;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+   /* background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
