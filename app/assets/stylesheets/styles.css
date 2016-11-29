@@ -4,8 +4,6 @@ body{
 
 .navbar {
   background-color: black;
-/*  border-color: #e7e7e7;
-*/  /*position: relative;*/
 height: 85px;
 width: 100%;
 margin-top: 0px;
@@ -46,10 +44,7 @@ position: fixed;
   color: black;
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   text-align: center;
-  /*text-shadow: -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;*/
+
   }
 
   .name{
@@ -69,7 +64,6 @@ position: fixed;
    background-color: #313A3D;
     border: none;
     color: white;
-   /* padding: 15px 32px;*/
     text-align: center;
     text-decoration: none;
     font-size: 24px;
@@ -123,10 +117,7 @@ position: fixed;
     margin: 0 9%;
     color: black;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  /*text-shadow: -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;*/
+
   }
 
   .share-buttons {
@@ -311,8 +302,6 @@ position: fixed;
   .parallax {
     background-image: url("brick2.jpg");
     min-height: 500px;
-    /* Create the parallax scrolling effect */
-   /* background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -323,7 +312,7 @@ position: fixed;
     overflow: auto;
     background-image: url("snow1.jpg");
     min-height: 1250px;
-    /* Create the parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -331,7 +320,6 @@ position: fixed;
   }
 
   .opac{
-    /*background: rgb(54, 25, 25);*/
 
     background: rgba(255, 255, 255, .3);
   }
