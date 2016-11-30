@@ -13,6 +13,7 @@ position: fixed;
 }
 
 .nav {
+  font-family: dudit;
   padding-right: 2%;
   margin: 17px -15px;
   list-style: none;
