@@ -16,7 +16,7 @@ position: fixed;
   padding-right: 2%;
   margin: 17px -15px;
   list-style: none;
-  font-size: 13px;
+  font-size: 18px;
   margin-top: 0px;
 }
 
@@ -318,7 +318,18 @@ position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+ .labhub{
+  font-family: serif;
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+#labhub:hover .labhub{
+  display: block;
+}
   .opac{
 
     background: rgba(255, 255, 255, .3);
