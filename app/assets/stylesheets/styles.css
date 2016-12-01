@@ -303,6 +303,7 @@ position: fixed;
   .parallax {
     background-image: url("brick2.jpg");
     min-height: 500px;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,6 +545,10 @@ form input[type="submit"]:hover {
 form input[type="submit"]:focus {
   outline: none;
   background: #cd6302;
+}
+
+.abs{
+  position: absolute;
 }
 
 /*----------------------*/
