@@ -310,10 +310,19 @@ position: fixed;
   }
 
   .snow {
+    height:100vh;
+    width: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    position: relative;
+
     display: flex;
     overflow: auto;
     background-image: url("snow1.jpg");
-    min-height: 850px;
+    /*min-height: 850px;*/
 
     background-attachment: fixed;
     background-position: center;
