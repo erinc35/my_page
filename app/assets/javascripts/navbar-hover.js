@@ -5,7 +5,7 @@ navbarHover();
 });
 
 function navbarHover()  {
-  $(".nav").children().on("click", function(event){
+  $(".navbar-nav").children().on("click", function(event){
    event.preventDefault();
    mouseLeaveBlack();
    // mouseEnterWhite();
@@ -15,8 +15,8 @@ function navbarHover()  {
 
 
 function mouseLeaveBlack(){
- $(this).on("mouseleave", function(){
-   $(this).css("color", "red");
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $(".deneme").css("color", "red");
  })
 }
 
