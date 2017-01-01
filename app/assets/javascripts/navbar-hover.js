@@ -7,20 +7,42 @@ navbarHover();
 function navbarHover()  {
   $(".navbar-nav").children().on("click", function(event){
    event.preventDefault();
-   mouseLeaveBlack();
-   // mouseEnterWhite();
+   mouseLeaveBlackEducation();
+   mouseLeaveBlackIntro();
+   mouseLeaveBlackProjects();
+   mouseLeaveBlackContact();
+   mouseLeaveBlackResume();
+
  })
 
 }
 
 
-function mouseLeaveBlack(){
+function mouseLeaveBlackEducation(){
  $(".navbar-nav").children().on("mouseleave", function(){
-   $(".deneme").css("color", "red");
+   $("#education-nav").css("background-color", "black");
  })
 }
-
-
+function mouseLeaveBlackIntro(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#education-nav").css("background-color", "black");
+ })
+}
+function mouseLeaveBlackProjects(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#projects-nav").css("background-color", "black");
+ })
+}
+function mouseLeaveBlackContact(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#contact-nav").css("background-color", "black");
+ })
+}
+function mouseLeaveBlackResume(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#resume-nav").css("background-color", "black");
+ })
+}
 
 
 // function mouseEnterWhite(){
