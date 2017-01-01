@@ -11,6 +11,7 @@ function navbarHover()  {
    mouseLeaveBlackIntro();
    mouseLeaveBlackProjects();
    mouseLeaveBlackContact();
+   mouseLeaveBlackResume();
 
  })
 
@@ -35,6 +36,11 @@ function mouseLeaveBlackProjects(){
 function mouseLeaveBlackContact(){
  $(".navbar-nav").children().on("mouseleave", function(){
    $("#contact-nav").css("background-color", "black");
+ })
+}
+function mouseLeaveBlackResume(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#resume-nav").css("background-color", "black");
  })
 }
 
