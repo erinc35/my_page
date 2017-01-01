@@ -16,7 +16,7 @@ function navbarHover()  {
 
 function mouseLeaveBlack(){
  $(".navbar-nav").children().on("mouseleave", function(){
-   $(".deneme").css("color", "red");
+   $("#education-nav").css("background-color", "black");
  })
 }
 
