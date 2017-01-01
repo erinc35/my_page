@@ -7,19 +7,30 @@ navbarHover();
 function navbarHover()  {
   $(".navbar-nav").children().on("click", function(event){
    event.preventDefault();
-   mouseLeaveBlack();
-   // mouseEnterWhite();
+   mouseLeaveBlackEducation();
+   mouseLeaveBlackIntro();
+   mouseLeaveBlackProjects();
+
  })
 
 }
 
 
-function mouseLeaveBlack(){
+function mouseLeaveBlackEducation(){
  $(".navbar-nav").children().on("mouseleave", function(){
    $("#education-nav").css("background-color", "black");
  })
 }
-
+function mouseLeaveBlackIntro(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#education-nav").css("background-color", "black");
+ })
+}
+function mouseLeaveBlackProjects(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#projects-nav").css("background-color", "black");
+ })
+}
 
 
 
