@@ -10,6 +10,7 @@ function navbarHover()  {
    mouseLeaveBlackEducation();
    mouseLeaveBlackIntro();
    mouseLeaveBlackProjects();
+   mouseLeaveBlackContact();
 
  })
 
@@ -31,7 +32,11 @@ function mouseLeaveBlackProjects(){
    $("#projects-nav").css("background-color", "black");
  })
 }
-
+function mouseLeaveBlackContact(){
+ $(".navbar-nav").children().on("mouseleave", function(){
+   $("#contact-nav").css("background-color", "black");
+ })
+}
 
 
 // function mouseEnterWhite(){
