@@ -64,7 +64,7 @@ body{
 .resume-download {
   font-weight: bolder;
   font-family: serif;
-  display: inline-block;
+  display: block;
   margin: 2% auto;
   background-color: #313A3D;
   border: none;
