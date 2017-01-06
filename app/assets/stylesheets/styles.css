@@ -9,11 +9,11 @@ body{
   margin-top: 0px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  position: absolute;
+  position: fixed;
 }
 
 .nav {
-  font-family: dudit;
+  font-family: serif;
   padding-right: 2%;
   margin: 17px -15px;
   list-style: none;
