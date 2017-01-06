@@ -21,6 +21,7 @@ function navbarHover()  {
 function mouseLeaveBlackEducation(){
  $(".navbar-nav").children().on("mouseleave", function(){
    $("#education-nav").css("background-color", "black");
+
  })
 }
 function mouseLeaveBlackIntro(){
