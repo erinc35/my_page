@@ -2,6 +2,14 @@ body{
   margin: 0;
 }
 
+.log-cardex{
+  padding-top: 3%;
+  font-size: 20px;
+  display: none;
+}
+#cardex:hover div.log-cardex{
+  display: block;
+}
 .navbar {
   background-color: black;
   height: 84px;
