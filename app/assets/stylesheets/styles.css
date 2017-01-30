@@ -1,6 +1,12 @@
 body{
   margin: 0;
 }
+#experience{
+  width: 900px;
+}
+.exp-list{
+  font-size: 18px;
+}
 
 .log-labhub{
   padding-top: 3%;
