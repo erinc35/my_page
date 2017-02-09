@@ -7,11 +7,11 @@ navbarHover();
 function navbarHover()  {
   $(".navbar-nav").children().on("click", function(event){
    event.preventDefault();
-   mouseLeaveBlackEducation();
-   mouseLeaveBlackIntro();
-   mouseLeaveBlackProjects();
-   mouseLeaveBlackContact();
-   mouseLeaveBlackResume();
+   // mouseLeaveBlackEducation();
+   // mouseLeaveBlackIntro();
+   // mouseLeaveBlackProjects();
+   // mouseLeaveBlackContact();
+   // mouseLeaveBlackResume();
 
  })
 
