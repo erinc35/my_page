@@ -6,6 +6,7 @@ $(document).ready(function() {
       $('#navbar').addClass('navbar-fixed');
     }
     if ($(window).scrollTop() < 281) {
+
       $('#navbar').removeClass('navbar-fixed');
     }
   });
